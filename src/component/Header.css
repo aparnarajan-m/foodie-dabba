@@ -1,0 +1,88 @@
+.header-main {
+  height: 830px;
+  background-color: #ede9df;
+  display: flex;
+  position: relative;
+}
+
+.header-left,
+.header-right {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+
+.inner-header-second {
+  height: 50%;
+  width: 12%;
+  margin-bottom: 20px;
+}
+
+.inner-header-left-first {
+  height: 70%;
+  width: 80%;
+  margin-left: 14px;
+}
+
+.header-title {
+  font-size: 48px; /* Equivalent to Tailwind's text-6xl */
+}
+
+.header-description {
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.order-button {
+  height: 41px;
+  width: 201px;
+  background-color: #f47820;
+  padding: 7px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 14px;
+}
+
+.header-right {
+  justify-content: center;
+  align-items: center;
+}
+
+.background-image {
+  height: 250px;
+  width: 250px;
+  position: absolute;
+  top: 12px;
+  left: 760px;
+}
+
+.background-image img {
+  height: 350px;
+  width: 350px;
+}
+
+.main-image {
+  height: 80%;
+  width: 100%;
+  margin-right: 80px;
+}
+
+.main-image img {
+  height: 700px;
+}
+
+.tomato-image {
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  bottom: 130px;
+  right: 130px;
+}
+
+.tomato-image img {
+  height: 100%;
+  width: 100%;
+}

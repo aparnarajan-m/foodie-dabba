@@ -1,69 +1,89 @@
-*{
-    padding: 0%;
-    margin: 0%;
-    box-sizing: border-box;
-
-}
-
-.navbar-main{
-    height: 10%;
+@font-face{
+    font-family:Myfont ;
+    src: url(public/Poppins-Light.ttf);
+  }
+.main-navbar{
     width: 100%;
+    height: 110px;
     background-color: #EDE9DF;
     display: flex;
     justify-content: space-between;
-    box-shadow: 0px 0px 10px 0px;
 }
-.foodie-dabba-logo{
-    height: 100%;
-    width: 12%;
-    background-color: #EDE9DF;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.cart-logo{
+.nav-left{
     height: 100%;
     width: 10%;
-    background-color: #EDE9DF;
-   display: flex;
-   align-items: center;
-   justify-content: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.foodie-dabba-logo img{
-    height: 3.5rem;
-    width: 8rem;
+.nav-left img{
+  width: 147px;
+  height: 74px;
 }
-.cart-logo img{
-    height: 3rem;
-    width: 3rem;
-
-
+.nav-right{
+    height: 100%;
+    width: 30%;
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   gap: 20px;
+   justify-content: space-evenly;
 }
-@media ( max-width :768px){
-    .foodie-dabba-logo{
-        width: 20%;
-    }.foodie-dabba-logo img{
-        height: 2.5rem;
-        width: 7rem;
-    }
-    .cart-logo img{
-        height: 2rem;
-        width: 2rem;
-    }
+.nav-right li{
+    list-style: none;
+    font-family: Myfont;
+    font-size: 15px;
+    font-weight: bolder;
 }
-@media (max-width :425px){
-    .foodie-dabba-logo{
-        width: 30%;
-    }.foodie-dabba-logo img{
-        height: 2rem;
-        width: 5rem;
+.nav-button{
+    margin-left: 10px;
+    width: 112px;
+    height: 41px;
+    border-radius: 24px;
+    background-color: #F47820;
+    color: #FFFFFF;
+    outline: none;
+    border: none;
+    font-family: Myfont;
+     font-weight: bolder;
+}
+@media(max-width : 768px){
+    .main-navbar{
+        width: 1010px;
+        height: 95px;
+      
     }
-    .cart-logo img{
-        height: 1.5rem;
-        width: 1.5rem;
-    }
-    .cart-logo{
+    .nav-left{
         height: 100%;
-        width: 15%;
+        width: 20%;
+    }
+    .nav-left img{
+      width: 140px;
+      height: 70px;
+    }
+    .nav-right{
+        height: 100%;
+        width: 45%;
     }
 }
+@media(max-width : 725px){
+    .main-navbar{
+        width: 1010px;
+        height: 130px;
+      
+    }
+    .nav-left{
+        height: 100%;
+        width: 23%;
+    }
+    .nav-left img{
+      width: 180px;
+      height: 90px;
+    }
+    .nav-right{
+        height: 100%;
+        width: 45%;
+    }
+    } 
+    
