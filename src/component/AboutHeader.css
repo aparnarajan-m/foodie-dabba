@@ -1,0 +1,51 @@
+@font-face{
+    font-family:Myfont ;
+    src: url(public/Poppins-Light.ttf);
+}
+.AboutHeader-container{
+    width: 100%;
+    height: 450px;
+    font-family: Myfont;
+    background-color: #EDE9DF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.aboutHeader-contentsDiv{
+    width: 87%;
+    height: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* flex-wrap: wrap; */
+}
+.aboutHeader-imgDiv{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+}
+.aboutHeading1{
+    font-size: 80px;
+    font-weight: bolder;
+}
+.aboutPara1{
+    font-size: 20px;
+    font-weight: 500;
+}
+.tomato-Img{
+    width: 143px;
+}
+.aboutUs-clr{
+    color: orange;
+}
+.blackjamun-Img{
+    width: 225px;
+}
+.leaf-Img{
+    width: 390px;
+}
+
+

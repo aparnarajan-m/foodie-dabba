@@ -1,0 +1,49 @@
+@font-face{
+    font-family:Myfont ;
+    src: url(public/Poppins-Light.ttf);
+}
+.aboutNavbar-container{
+    width: 100%;
+    height: 110px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #EDE9DF;
+    font-family: Myfont;
+    font-size: 19px;
+    font-weight: bolder;
+}
+.aboutNavbarLeft-content{
+    width: 25%;
+    height: 100%;
+}
+.navbar-Logo{
+    width: 50%;
+}
+.aboutNavbarRight-content{
+    width: 32%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 40px;
+}
+.aboutNavbarRight-content ul{
+    width: 60%;
+    height: 50%;
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+    gap: 75px;
+}
+.aboutNavbarRight-content li {
+    list-style: none;
+}
+.aboutNavbar-btn{
+    background-color: #F47820;
+    padding: 12px 35px;
+    margin: 15px;
+    border-radius: 50px;
+    color: #FFFFFF;
+}
+
