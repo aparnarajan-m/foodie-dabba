@@ -13,7 +13,7 @@ const AboutHeader = () => {
                 <p className='aboutPara1'>Lorem ipsum is a simple dummy text of the printing <br /> and type settings industry.</p>
             </div>
             <img className='tomato-Img' src={tomato} alt="" />
-            <h3>Home/ <span className='aboutUs-clr'>About Us</span></h3>
+            <h3 className='aboutusDiv'>Home/ <span className='aboutUs-clr'>About Us</span></h3>
             </div>
             <div className='aboutHeader-imgDiv'>
                 <img className='blackjamun-Img' src={blackjamun} alt="" />

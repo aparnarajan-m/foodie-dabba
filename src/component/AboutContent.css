@@ -1,0 +1,101 @@
+.AboutContent-container{
+    width: 100%;
+    height: 750px;
+    /* background-color: red; */
+    overflow-x: hidden;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.AboutContent-subcontainer{
+    width: 87%;
+    height: 670px;
+    display: flex;
+    /* background-color: blue; */
+}
+.AboutContent-Left{
+    width: 65%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    /* background-color: blueviolet; */
+}
+.AboutContent-LeftSEc-1{
+    width: 100%;
+    height: 30%;
+    /* background-color: chocolate; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+.AboutContent-LeftSEc1-h4{
+    color: orange;
+    font-size: smaller;
+}
+.AboutContent-LeftSEc1-h1{
+    font-size: 40px;
+    font-weight: bolder;
+}
+.AboutContent-LeftSEc1-p, .AboutContent-LeftSEc2-p{
+    font-size: medium;
+}
+.AboutContent-LeftSEc-2{
+    width: 100%;
+    height: 22%;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: azure; */
+}
+.AboutContent-LeftSEc2-contence1, .AboutContent-LeftSEc3-contence1{
+    width: 50%;
+    height: 100%;
+    /* background-color: bisque; */
+}
+.AboutContent-LeftSEc2-contence2, .AboutContent-LeftSEc3-contence2{
+    width: 45%;
+    height: 100%;
+    /* background-color: darkgreen; */
+}
+.AboutContent-LeftSEc2-h2, .AboutContent-LeftSEc3-h2{
+    font-size: 25px;
+    font-weight: bolder;
+    padding-bottom: 15px;
+}
+.AboutContent-LeftSEc-3{
+    width: 100%;
+    height: 44%;
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-start;
+    /* background-color: cadetblue; */
+}
+
+.Aboutimg2{
+    width: 95%;
+}
+.AboutContent-LeftSEc3-item {
+    margin-bottom: 10px;
+    display: flex;
+    gap: 10px; 
+    font-size: 16px;
+}
+
+.label {
+    min-width: 80px; 
+}
+.AboutContent-Right{
+    width: 35%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: brown; */
+}
+.AboutRightImage{
+    width: 90%;
+    height: 95%;
+}
+
+
