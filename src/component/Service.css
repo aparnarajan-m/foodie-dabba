@@ -1,0 +1,47 @@
+.Serice-container{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    /* background-color: orange; */
+}
+.shadowTop-div{
+    width: 100%;
+}
+.shadowTop-Img{
+    width: 100%;
+}
+.serviceContent-div{
+    width: 100%;
+    height: 483px;
+    background-image: url(C:\Users\lenovo\OneDrive\Desktop\foodie-dabba\foodie-dabba\src\assets\ServiceBg.png);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.serviceContent-Subdiv{
+    width: 87%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.ServiceCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.ServiceCarddetails{
+    width: 60%;
+}
+.serviceh2{
+    font-weight: bold;
+    padding: 10px;
+}
+.servicep{
+    font-weight: bolder;
+    font-size: 14px;
+}
