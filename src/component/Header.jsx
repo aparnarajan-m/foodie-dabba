@@ -63,6 +63,9 @@ const Header = () => {
             eaque ex, quaerat veritatis animi! Natus, doloribus rem. Sunt, id
             ratione?
           </p>
+          <div className="Hanmadeextra">
+          <h1>Hanmade ,whith <br />an Extra pinch Of <br /> <span>LOVE</span> </h1>
+        </div>
           <button className="order-button">Order now</button>
         </div>
       </div>
