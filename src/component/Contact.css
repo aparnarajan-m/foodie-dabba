@@ -1,0 +1,100 @@
+.footer-container{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    /* background-color: aquamarine; */
+}
+.footer-Subcontainer{
+    width: 87%;
+    height: 70%;
+    margin-top: 6%;
+    display: flex;
+    /* background-color: blue; */
+}
+.footerContainer-Left{
+    width: 45%;
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* background-color: brown; */
+}
+.footercontainerLeft-sec2{
+    display: flex;
+    align-items: center;
+    /* background-color: antiquewhite; */
+}
+.FooterLogo{
+    width: 33%;
+}
+.footercontainerLeft-sec2sub{
+    height: 77%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 20px;
+    /* background-color: #F47820; */
+}
+.FooterConatinerleft-heading1{
+    font-size: 40px;
+    font-weight: bolder;
+}
+.FooterConatinerleft-p{
+    font-size: 20px;
+    font-weight: 500;
+}
+.FooterConatinerleft-heading2{
+    font-size: 25px;
+    font-weight: bold;
+}
+.leftheading2{
+    color: brown;
+}
+
+.footerContainer-Right{
+    width: 55%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* background-color: blueviolet; */
+}
+.FooterInput-div{
+    width: 100%;
+    gap: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: red; */
+}
+#FooterInput{
+    width: 47%;
+    height: 160%;
+    border: 2px solid gray; 
+    border-radius: 10px; 
+    font-size: larger;
+}
+#FooterInput ::placeholder{
+    padding-right: 10px;
+}
+#FootermessageInput{
+    width: 100%;
+    padding: 7.6% 0;
+    border: 2px solid gray; 
+    border-radius: 10px;
+    font-size:larger;
+}
+.Footer-btn {
+    background-color: #F47820;
+    padding: 1.5% 6.5%;
+    margin: 15px;
+    border-radius: 50px;
+    color: #FFFFFF;
+    font-size:larger;
+}
+
+ 
