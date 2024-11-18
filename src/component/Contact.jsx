@@ -2,7 +2,7 @@ import React from 'react'
 import './Contact.css'
 import Logo from '/src/assets/logo.png'
 
-const Footer = () => {
+const Contact = () => {
   return (
     <div className='footer-container'>
       <div className='footer-Subcontainer'>
@@ -36,4 +36,4 @@ const Footer = () => {
   )
 }
 
-export default Footer
+export default Contact

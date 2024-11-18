@@ -18,7 +18,7 @@ const Service = () => {
       <div className='shadowTop-div'><img className='shadowTop-Img' src={shadowTop} alt="" /></div>
       <div className='serviceContent-div'>
         <div className='serviceContent-Subdiv'>
-        { service.map(item=>(
+        { service.map(item =>(
             <div className='ServiceCard'>
                 <img src={item.url} alt="" />
                 <div className='ServiceCarddetails'> 

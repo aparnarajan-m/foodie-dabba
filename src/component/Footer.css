@@ -1,0 +1,103 @@
+.Footer-container{
+    width: 100%;
+    height: 496px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #121617;
+}
+.footer-subContainer{
+    width: 87%;
+    height: 100%;
+    /* background-color: blue; */
+}
+.footer-Topdiv{
+    width: 100%;
+    height: 83%;
+    border-bottom: 2px solid gray;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: aqua; */
+}
+.footer-Subtopdiv{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-content: start;
+    /* background-color: burlywood; */
+}
+.footer-contents1 ul, .footer-contents2 ul, .FooterDetails-Div, .socialMediaDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* background-color: darkseagreen; */
+    font-size: 21px;
+}
+.footerDetails-heading{
+    font-size: 23px;
+    font-weight: bold;
+}
+.footer-contents1 ul{
+    height: 90%;
+}
+.footer-contents2 ul{
+    height: 100%;
+}
+.footerDetails-Item{
+    font-size: 22px;
+}
+.FooterDetails-Div{
+    height: 75%;
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: darkorchid; */
+}
+.details1{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: beige; */
+}
+.detailsNameLine{
+    width: 35%;
+    font-size: 22px;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: green; */
+}
+.detailsNameLine-details{
+    width: 65%;
+    height: 100%;
+    font-size: 22px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* background-color: chocolate; */
+}
+.socialMediaDiv{
+    height: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: dimgrey; */
+}
+.footer-Bottomdiv{
+    width: 100%;
+    height: 17%;
+    color: #FFFFFF;
+    font-size: medium;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: aquamarine; */
+}
+.socialMediaIcons{
+    display: flex;
+    gap: 25px;
+}
