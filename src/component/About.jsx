@@ -3,6 +3,7 @@ import AboutNavbar from './AboutNavbar'
 import AboutHeader from './AboutHeader'
 import AboutContent from './AboutContent'
 import Service from './Service'
+import Contact from './Contact'
 import Footer from './Footer'
 
 function About() {
@@ -12,6 +13,7 @@ function About() {
       <AboutHeader/>
       <AboutContent/>
       <Service/>
+      <Contact/>
       <Footer/>
     </div>
   )
