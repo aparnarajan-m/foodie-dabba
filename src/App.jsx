@@ -7,6 +7,7 @@ import AboutNavbar from './component/AboutNavbar'
 import Service from './component/Service'
 import Footer from './component/Footer'
 import Contact from './component/Contact'
+import MenuList from './component/MenuList'
 
 
 
@@ -18,6 +19,7 @@ const App = () => {
       <AboutNavbar/>
       <Header/>
       <Service/>
+       < MenuList/>
       <Contact/>
       <Footer/>
       
